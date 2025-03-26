@@ -1,0 +1,9 @@
+{
+  "name": "string",
+  "key2": 123,
+  "key3": 123.23,
+  "key4": true,
+  "key5": [1, 2.3, 3],
+  "key6": { "a": "value" },
+  "key7": null
+}

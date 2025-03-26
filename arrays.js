@@ -8,16 +8,7 @@ let arrNames = ["john", "doe", "tom", "jane"];
 
 let arrNum = [1, 2, 3, 4, 4.5, 5, 6];
 
-let obj = {
-  key1: "value1",
-  key2: 123,
-  key3: true,
-  key4: undefined,
-  key5: null,
-  key6: function () {}, // method
-  key7: {},
-  key8: [],
-};
+// l
 
 // let emp = {
 //   name: "john",
@@ -32,3 +23,16 @@ let obj = {
 // console.log(emp.1);
 // console.log(emp[1]);
 // console.log(emp["name"]);
+
+let object = {
+  key1: "string",
+  key2: 123,
+  key3: 123.345,
+  key4: true,
+  key5: undefined,
+  key6: null,
+  key7: { a: 1, b: 2, c: 3 },
+  key8: [1, 23],
+  key9: function () {},
+  key10: new Date(),
+};
