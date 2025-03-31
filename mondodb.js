@@ -37,5 +37,12 @@ let object = {
   key10: new Date(),
 };
 
-
 // https://docs.google.com/forms/d/e/1FAIpQLSfkiVAHQpu91fS9Mynm3NHR5TKwYwKckjrPkMU7KXAGUfE1HA/viewform
+
+db.users.insertMany([
+  { name: "ashwin", age: 34, gender: "male", skills: ["html", "css"] },
+  { name: "varun", age: 33, gender: "male", skills: ["java", "sql"] },
+  { name: "chetna", age: 33, gender: "female", skills: ["sql", "html"] },
+  { name: "sirisha", age: 34, gender: "female", skills: ["react", "js"] },
+  { name: "bhumika", age: 34, gender: "female", skills: ["js", "php"] },
+]);
