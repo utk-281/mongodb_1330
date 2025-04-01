@@ -46,3 +46,5 @@ db.users.insertMany([
   { name: "sirisha", age: 34, gender: "female", skills: ["react", "js"] },
   { name: "bhumika", age: 34, gender: "female", skills: ["js", "php"] },
 ]);
+
+db.users.updateOne({ userName: "chetna A" }, { $set: { username: "chetna" } });
