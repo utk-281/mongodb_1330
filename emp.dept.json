@@ -1,0 +1,32 @@
+[{
+  "_id": {
+    "$oid": "66a2354679c0c8f6a2470f94"
+  },
+  "deptNo": 20,
+  "dName": "research",
+  "loc": "dallas"
+},
+{
+  "_id": {
+    "$oid": "66a2354679c0c8f6a2470f95"
+  },
+  "deptNo": 30,
+  "dName": "sales",
+  "loc": "chicago"
+},
+{
+  "_id": {
+    "$oid": "66a2354679c0c8f6a2470f96"
+  },
+  "deptNo": 40,
+  "dName": "operation",
+  "loc": "boston"
+},
+{
+  "_id": {
+    "$oid": "66a2354679c0c8f6a2470f93"
+  },
+  "deptNo": 10,
+  "dName": "accounting",
+  "loc": "new york"
+}]

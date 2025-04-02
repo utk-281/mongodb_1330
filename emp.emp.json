@@ -1,0 +1,285 @@
+[{
+  "_id": {
+    "$oid": "66a23517b5c6990483c4e49e"
+  },
+  "empNo": 7566,
+  "job": "manager",
+  "mgr": 7839,
+  "hireDate": {
+    "$date": "1981-04-01T18:30:00.000Z"
+  },
+  "sal": 5000,
+  "comm": 1200,
+  "deptNo": 20,
+  "totalHoursWorked": 30,
+  "havingInsurance": false,
+  "bonus": 1000,
+  "skills": [
+    "html"
+  ],
+  "empName": "jones"
+},
+{
+  "_id": {
+    "$oid": "66a23517b5c6990483c4e49f"
+  },
+  "empNo": 7654,
+  "job": "salesman",
+  "mgr": 7698,
+  "hireDate": {
+    "$date": "1981-09-27T18:30:00.000Z"
+  },
+  "sal": 1250,
+  "comm": 1200,
+  "deptNo": 30,
+  "totalHoursWorked": 30,
+  "bonus": 1000,
+  "empName": "martin"
+},
+{
+  "_id": {
+    "$oid": "66a23517b5c6990483c4e4a0"
+  },
+  "empNo": 7698,
+  "job": "manager",
+  "mgr": 7839,
+  "hireDate": {
+    "$date": "1981-04-30T18:30:00.000Z"
+  },
+  "sal": 2850,
+  "comm": 1200,
+  "deptNo": 30,
+  "totalHoursWorked": 30,
+  "bonus": 1000,
+  "skills": "c++",
+  "empName": "blake"
+},
+{
+  "_id": {
+    "$oid": "66a23517b5c6990483c4e4a1"
+  },
+  "empNo": 7782,
+  "job": "manager",
+  "mgr": 7839,
+  "hireDate": {
+    "$date": "1981-06-08T18:30:00.000Z"
+  },
+  "sal": 2450,
+  "comm": 1200,
+  "deptNo": 10,
+  "totalHoursWorked": 30,
+  "bonus": 1000,
+  "skills": [
+    "java",
+    "python",
+    "html"
+  ],
+  "empName": "clark"
+},
+{
+  "_id": {
+    "$oid": "66a23517b5c6990483c4e4a2"
+  },
+  "empNo": 7788,
+  "job": "analyst",
+  "mgr": 7566,
+  "hireDate": {
+    "$date": "1987-04-18T18:30:00.000Z"
+  },
+  "sal": 3000,
+  "comm": 1200,
+  "deptNo": 20,
+  "totalHoursWorked": 30,
+  "bonus": 1000,
+  "empName": "scott"
+},
+{
+  "_id": {
+    "$oid": "66a23517b5c6990483c4e4a3"
+  },
+  "empNo": 7839,
+  "job": "president",
+  "mgr": null,
+  "hireDate": {
+    "$date": "1981-11-16T18:30:00.000Z"
+  },
+  "sal": 5000,
+  "comm": 1200,
+  "deptNo": 10,
+  "totalHoursWorked": 30,
+  "bonus": 1000,
+  "empName": "king"
+},
+{
+  "_id": {
+    "$oid": "66a23517b5c6990483c4e4a4"
+  },
+  "empNo": 7844,
+  "job": "salesman",
+  "mgr": 7698,
+  "hireDate": {
+    "$date": "1981-09-07T18:30:00.000Z"
+  },
+  "sal": 1500,
+  "comm": 1200,
+  "deptNo": 30,
+  "skills": {
+    "frontend": [
+      "javascript",
+      "html"
+    ],
+    "backend": [
+      "php",
+      "java"
+    ]
+  },
+  "totalHoursWorked": 30,
+  "bonus": 1000,
+  "empName": "turner"
+},
+{
+  "_id": {
+    "$oid": "66a23517b5c6990483c4e4a5"
+  },
+  "empNo": 7876,
+  "job": "clerk",
+  "mgr": 7788,
+  "hireDate": {
+    "$date": "1987-05-22T18:30:00.000Z"
+  },
+  "sal": 3300,
+  "comm": 1200,
+  "deptNo": 20,
+  "age": 23,
+  "totalHoursWorked": 30,
+  "city": "Pune",
+  "bonus": 1000,
+  "skills": [
+    "blockchain",
+    "ai"
+  ],
+  "empName": "adams"
+},
+{
+  "_id": {
+    "$oid": "66a23517b5c6990483c4e4a6"
+  },
+  "empNo": 7900,
+  "job": "clerk",
+  "mgr": 7698,
+  "hireDate": {
+    "$date": "1981-12-02T18:30:00.000Z"
+  },
+  "sal": 1250,
+  "comm": 1200,
+  "deptNo": 30,
+  "totalHoursWorked": 30,
+  "city": "Noida",
+  "bonus": 1000,
+  "skills": [
+    "sql"
+  ],
+  "empName": "james"
+},
+{
+  "_id": {
+    "$oid": "66a23517b5c6990483c4e4a7"
+  },
+  "empNo": 7902,
+  "job": "analyst",
+  "mgr": 7566,
+  "hireDate": {
+    "$date": "1981-12-02T18:30:00.000Z"
+  },
+  "sal": 3000,
+  "comm": 1200,
+  "deptNo": 20,
+  "totalHoursWorked": 30,
+  "bonus": 1000,
+  "empName": "ford"
+},
+{
+  "_id": {
+    "$oid": "66a23517b5c6990483c4e4a8"
+  },
+  "empNo": 7934,
+  "job": "clerk",
+  "mgr": 7782,
+  "hireDate": {
+    "$date": "1982-01-22T18:30:00.000Z"
+  },
+  "sal": 1600,
+  "comm": 1200,
+  "deptNo": 10,
+  "age": 23,
+  "totalHoursWorked": 30,
+  "city": "Noida",
+  "bonus": 1000,
+  "skills": [
+    "sql"
+  ],
+  "empName": "miller"
+},
+{
+  "_id": {
+    "$oid": "66a23517b5c6990483c4e49b"
+  },
+  "empNo": 7369,
+  "job": "clerk",
+  "mgr": 7902,
+  "hireDate": {
+    "$date": "1980-12-16T18:30:00.000Z"
+  },
+  "sal": 1100,
+  "comm": 1200,
+  "deptNo": 20,
+  "age": 23,
+  "skills": [
+    "sql"
+  ],
+  "totalHoursWorked": 30,
+  "city": "Noida",
+  "bonus": 1000,
+  "empName": "smith"
+},
+{
+  "_id": {
+    "$oid": "66a23517b5c6990483c4e49c"
+  },
+  "empNo": 7499,
+  "job": "salesman",
+  "mgr": 7698,
+  "hireDate": {
+    "$date": "1981-02-19T18:30:00.000Z"
+  },
+  "sal": 1100,
+  "comm": 1200,
+  "deptNo": 30,
+  "skills": "[\"html\"",
+  "totalHoursWorked": 30,
+  "bonus": 1000,
+  "empName": "allen",
+  "age": 3
+},
+{
+  "_id": {
+    "$oid": "66a23517b5c6990483c4e49d"
+  },
+  "empNo": 7521,
+  "job": "salesman",
+  "mgr": 7698,
+  "hireDate": {
+    "$date": "1981-02-21T18:30:00.000Z"
+  },
+  "sal": 3000,
+  "comm": 1200,
+  "deptNo": 30,
+  "totalHoursWorked": null,
+  "bonus": 1000,
+  "incentive": 10,
+  "skills": [
+    "reqct",
+    "sql"
+  ],
+  "empName": "ward"
+}]
