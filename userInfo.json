@@ -1,0 +1,1108 @@
+[{
+  "_id": {
+    "$oid": "67b044cd3b52e3ccd4ef4852"
+  },
+  "id": "67ac39e6aeed6c8cc3cb0ce3",
+  "name": "Santanu",
+  "city": "Chennai",
+  "skills": [
+    {
+      "category": "Frontend",
+      "technologies": [
+        "React",
+        "TypeScript"
+      ],
+      "proficiency": "Advanced"
+    },
+    {
+      "category": "Database",
+      "technologies": [
+        "MongoDB"
+      ],
+      "proficiency": "Intermediate"
+    }
+  ],
+  "age": 26,
+  "gender": "M",
+  "address": {
+    "pincode": 600001,
+    "city": "Chennai",
+    "state": "Tamil Nadu"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b044cd3b52e3ccd4ef4853"
+  },
+  "id": "89bd47f7bfee7d9dd4dc1df4",
+  "name": "Priya",
+  "city": "Bangalore",
+  "skills": [
+    {
+      "category": "Backend",
+      "technologies": [
+        "Node.js",
+        "Python"
+      ],
+      "proficiency": "Advanced"
+    },
+    {
+      "category": "Cloud",
+      "technologies": [
+        "AWS"
+      ],
+      "proficiency": "Intermediate"
+    }
+  ],
+  "age": 29,
+  "gender": "F",
+  "address": {
+    "pincode": 560001,
+    "city": "Bangalore",
+    "state": "Karnataka"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b044cd3b52e3ccd4ef4854"
+  },
+  "id": "32cd58a8cfea8eae5ed2ec5f",
+  "name": "Rahul",
+  "city": "Mumbai",
+  "skills": [
+    {
+      "category": "Mobile",
+      "technologies": [
+        "React Native"
+      ],
+      "proficiency": "Intermediate"
+    },
+    {
+      "category": "Database",
+      "technologies": [
+        "MySQL"
+      ],
+      "proficiency": "Basic"
+    }
+  ],
+  "age": 31,
+  "gender": "M",
+  "address": {
+    "pincode": 400001,
+    "city": "Mumbai",
+    "state": "Maharashtra"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b044cd3b52e3ccd4ef4855"
+  },
+  "id": "54de69b9dfab9fbf6fe3fd70",
+  "name": "Anjali",
+  "city": "Delhi",
+  "skills": [
+    {
+      "category": "Frontend",
+      "technologies": [
+        "Angular"
+      ],
+      "proficiency": "Intermediate"
+    },
+    {
+      "category": "DevOps",
+      "technologies": [
+        "Docker"
+      ],
+      "proficiency": "Basic"
+    }
+  ],
+  "age": 24,
+  "gender": "F",
+  "address": {
+    "pincode": 110001,
+    "city": "Delhi",
+    "state": "Delhi"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b044cd3b52e3ccd4ef4856"
+  },
+  "id": "76ef7acae0bc0acd7af4ge81",
+  "name": "Vikram",
+  "city": "Hyderabad",
+  "skills": [
+    {
+      "category": "Backend",
+      "technologies": [
+        "Java",
+        "Spring Boot"
+      ],
+      "proficiency": "Advanced"
+    },
+    {
+      "category": "Cloud",
+      "technologies": [
+        "Azure"
+      ],
+      "proficiency": "Intermediate"
+    }
+  ],
+  "age": 33,
+  "gender": "M",
+  "address": {
+    "pincode": 500001,
+    "city": "Hyderabad",
+    "state": "Telangana"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b044cd3b52e3ccd4ef4857"
+  },
+  "id": "98fg8bdb1cbd1bde8bg5hf92",
+  "name": "Neha",
+  "city": "Pune",
+  "skills": [
+    {
+      "category": "Data Science",
+      "technologies": [
+        "Python",
+        "TensorFlow"
+      ],
+      "proficiency": "Advanced"
+    },
+    {
+      "category": "Database",
+      "technologies": [
+        "PostgreSQL"
+      ],
+      "proficiency": "Intermediate"
+    }
+  ],
+  "age": 28,
+  "gender": "F",
+  "address": {
+    "pincode": 411001,
+    "city": "Pune",
+    "state": "Maharashtra"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b044cd3b52e3ccd4ef4858"
+  },
+  "id": "10gh9ced2dce2cef9ch6ig03",
+  "name": "Amit",
+  "city": "Kolkata",
+  "skills": [
+    {
+      "category": "Frontend",
+      "technologies": [
+        "Vue.js"
+      ],
+      "proficiency": "Intermediate"
+    },
+    {
+      "category": "Mobile",
+      "technologies": [
+        "Flutter"
+      ],
+      "proficiency": "Basic"
+    }
+  ],
+  "age": 27,
+  "gender": "M",
+  "address": {
+    "pincode": 700001,
+    "city": "Kolkata",
+    "state": "West Bengal"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b044cd3b52e3ccd4ef4859"
+  },
+  "id": "21hi0dfe3edf3dfg0di7jh14",
+  "name": "Sneha",
+  "city": "Chennai",
+  "skills": [
+    {
+      "category": "Backend",
+      "technologies": [
+        "Go",
+        "Rust"
+      ],
+      "proficiency": "Intermediate"
+    },
+    {
+      "category": "Cloud",
+      "technologies": [
+        "GCP"
+      ],
+      "proficiency": "Basic"
+    }
+  ],
+  "age": 30,
+  "gender": "F",
+  "address": {
+    "pincode": 600004,
+    "city": "Chennai",
+    "state": "Tamil Nadu"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b044cd3b52e3ccd4ef485a"
+  },
+  "id": "32ij1egf4feg4egh1ej8ki25",
+  "name": "Rajesh",
+  "city": "Bangalore",
+  "skills": [
+    {
+      "category": "DevOps",
+      "technologies": [
+        "Kubernetes"
+      ],
+      "proficiency": "Advanced"
+    },
+    {
+      "category": "Database",
+      "technologies": [
+        "Cassandra"
+      ],
+      "proficiency": "Intermediate"
+    }
+  ],
+  "age": 35,
+  "gender": "M",
+  "address": {
+    "pincode": 560002,
+    "city": "Bangalore",
+    "state": "Karnataka"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b044cd3b52e3ccd4ef485b"
+  },
+  "id": "43jk2fhg5gfh5fhi2fk9lj36",
+  "name": "Pooja",
+  "city": "Mumbai",
+  "skills": [
+    {
+      "category": "Mobile",
+      "technologies": [
+        "Swift",
+        "Kotlin"
+      ],
+      "proficiency": "Advanced"
+    },
+    {
+      "category": "Frontend",
+      "technologies": [
+        "Svelte"
+      ],
+      "proficiency": "Intermediate"
+    }
+  ],
+  "age": 26,
+  "gender": "F",
+  "address": {
+    "pincode": 400002,
+    "city": "Mumbai",
+    "state": "Maharashtra"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b04965fcaa6bccc8bdbada"
+  },
+  "id": "54kl3ihj6hij6gij3gl0mk47",
+  "name": "Rohan",
+  "city": "Gurgaon",
+  "skills": [
+    {
+      "category": "Frontend",
+      "technologies": [
+        "Next.js",
+        "Redux"
+      ],
+      "proficiency": "Advanced"
+    },
+    {
+      "category": "Backend",
+      "technologies": [
+        "Django",
+        "GraphQL"
+      ],
+      "proficiency": "Intermediate"
+    },
+    {
+      "category": "Cloud",
+      "technologies": [
+        "AWS Lambda",
+        "S3"
+      ],
+      "proficiency": "Basic"
+    }
+  ],
+  "age": 28,
+  "gender": "M",
+  "address": {
+    "pincode": 122001,
+    "city": "Gurgaon",
+    "state": "Haryana"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b04965fcaa6bccc8bdbadb"
+  },
+  "id": "65lm4jik7ijk7hjk4hm1nl58",
+  "name": "Anika",
+  "city": "Hyderabad",
+  "skills": [
+    {
+      "category": "AI/ML",
+      "technologies": [
+        "PyTorch",
+        "OpenCV"
+      ],
+      "proficiency": "Advanced"
+    },
+    {
+      "category": "Data Engineering",
+      "technologies": [
+        "Spark",
+        "Hadoop"
+      ],
+      "proficiency": "Intermediate"
+    },
+    {
+      "category": "Cloud",
+      "technologies": [
+        "AWS SageMaker"
+      ],
+      "proficiency": "Intermediate"
+    }
+  ],
+  "age": 34,
+  "gender": "F",
+  "address": {
+    "pincode": 500032,
+    "city": "Hyderabad",
+    "state": "Telangana"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b04965fcaa6bccc8bdbadc"
+  },
+  "id": "76mn5kjl8jkl8ikl5in2om69",
+  "name": "Karan",
+  "city": "Bangalore",
+  "skills": [
+    {
+      "category": "Mobile",
+      "technologies": [
+        "Kotlin",
+        "Jetpack Compose"
+      ],
+      "proficiency": "Advanced"
+    },
+    {
+      "category": "IoT",
+      "technologies": [
+        "Arduino",
+        "Raspberry Pi"
+      ],
+      "proficiency": "Intermediate"
+    },
+    {
+      "category": "Backend",
+      "technologies": [
+        "Firebase"
+      ],
+      "proficiency": "Basic"
+    }
+  ],
+  "age": 29,
+  "gender": "M",
+  "address": {
+    "pincode": 560068,
+    "city": "Bangalore",
+    "state": "Karnataka"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b04965fcaa6bccc8bdbadd"
+  },
+  "id": "87no6lkm9klm9jlm6jo3pn70",
+  "name": "Ishita",
+  "city": "Pune",
+  "skills": [
+    {
+      "category": "Cybersecurity",
+      "technologies": [
+        "Kali Linux",
+        "Wireshark"
+      ],
+      "proficiency": "Advanced"
+    },
+    {
+      "category": "Networking",
+      "technologies": [
+        "Cisco",
+        "VPNs"
+      ],
+      "proficiency": "Intermediate"
+    },
+    {
+      "category": "Cloud",
+      "technologies": [
+        "AWS IAM"
+      ],
+      "proficiency": "Basic"
+    }
+  ],
+  "age": 37,
+  "gender": "F",
+  "address": {
+    "pincode": 411028,
+    "city": "Pune",
+    "state": "Maharashtra"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b04965fcaa6bccc8bdbade"
+  },
+  "id": "98op7mln0lmn0kmn7kp4qo81",
+  "name": "Aarav",
+  "city": "Chennai",
+  "skills": [
+    {
+      "category": "Game Dev",
+      "technologies": [
+        "Unity",
+        "C#"
+      ],
+      "proficiency": "Intermediate"
+    },
+    {
+      "category": "3D Modeling",
+      "technologies": [
+        "Blender"
+      ],
+      "proficiency": "Basic"
+    },
+    {
+      "category": "Backend",
+      "technologies": [
+        "Photon Engine"
+      ],
+      "proficiency": "Intermediate"
+    }
+  ],
+  "age": 25,
+  "gender": "M",
+  "address": {
+    "pincode": 600089,
+    "city": "Chennai",
+    "state": "Tamil Nadu"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b04965fcaa6bccc8bdbadf"
+  },
+  "id": "09pq8nmo1mno1lno8lq5rp92",
+  "name": "Tanvi",
+  "city": "Delhi",
+  "skills": [
+    {
+      "category": "DevOps",
+      "technologies": [
+        "Jenkins",
+        "Ansible"
+      ],
+      "proficiency": "Advanced"
+    },
+    {
+      "category": "Cloud",
+      "technologies": [
+        "AWS ECS",
+        "Terraform"
+      ],
+      "proficiency": "Advanced"
+    },
+    {
+      "category": "Database",
+      "technologies": [
+        "Redis"
+      ],
+      "proficiency": "Intermediate"
+    }
+  ],
+  "age": 31,
+  "gender": "F",
+  "address": {
+    "pincode": 110020,
+    "city": "Delhi",
+    "state": "Delhi"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b04965fcaa6bccc8bdbae0"
+  },
+  "id": "10qr9onp2nop2mop9mr6sq03",
+  "name": "Ravi",
+  "city": "Mumbai",
+  "skills": [
+    {
+      "category": "Blockchain",
+      "technologies": [
+        "Solidity",
+        "Ethereum"
+      ],
+      "proficiency": "Advanced"
+    },
+    {
+      "category": "Backend",
+      "technologies": [
+        "Go",
+        "PostgreSQL"
+      ],
+      "proficiency": "Intermediate"
+    },
+    {
+      "category": "Cloud",
+      "technologies": [
+        "AWS EC2"
+      ],
+      "proficiency": "Basic"
+    }
+  ],
+  "age": 30,
+  "gender": "M",
+  "address": {
+    "pincode": 400070,
+    "city": "Mumbai",
+    "state": "Maharashtra"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b04965fcaa6bccc8bdbae1"
+  },
+  "id": "21rs0poq3opq3npq0ns7tr14",
+  "name": "Meera",
+  "city": "Ahmedabad",
+  "skills": [
+    {
+      "category": "UI/UX",
+      "technologies": [
+        "Figma",
+        "Sketch"
+      ],
+      "proficiency": "Advanced"
+    },
+    {
+      "category": "Frontend",
+      "technologies": [
+        "React",
+        "Framer Motion"
+      ],
+      "proficiency": "Intermediate"
+    },
+    {
+      "category": "Animation",
+      "technologies": [
+        "GSAP"
+      ],
+      "proficiency": "Basic"
+    }
+  ],
+  "age": 27,
+  "gender": "F",
+  "address": {
+    "pincode": 380001,
+    "city": "Ahmedabad",
+    "state": "Gujarat"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b04965fcaa6bccc8bdbae2"
+  },
+  "id": "32st1qpr4pqr4oqr1ot8us25",
+  "name": "Arjun",
+  "city": "Kolkata",
+  "skills": [
+    {
+      "category": "Data Engineering",
+      "technologies": [
+        "Airflow",
+        "Snowflake"
+      ],
+      "proficiency": "Advanced"
+    },
+    {
+      "category": "Big Data",
+      "technologies": [
+        "Hive",
+        "Kafka"
+      ],
+      "proficiency": "Intermediate"
+    },
+    {
+      "category": "Cloud",
+      "technologies": [
+        "AWS Glue"
+      ],
+      "proficiency": "Intermediate"
+    }
+  ],
+  "age": 33,
+  "gender": "M",
+  "address": {
+    "pincode": 700017,
+    "city": "Kolkata",
+    "state": "West Bengal"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b04965fcaa6bccc8bdbae3"
+  },
+  "id": "43tu2rqs5qrs5prs2pu9vt36",
+  "name": "Sanya",
+  "city": "Noida",
+  "skills": [
+    {
+      "category": "Testing",
+      "technologies": [
+        "Selenium",
+        "Cypress"
+      ],
+      "proficiency": "Advanced"
+    },
+    {
+      "category": "DevOps",
+      "technologies": [
+        "GitLab CI"
+      ],
+      "proficiency": "Intermediate"
+    },
+    {
+      "category": "Backend",
+      "technologies": [
+        "Postman"
+      ],
+      "proficiency": "Basic"
+    }
+  ],
+  "age": 26,
+  "gender": "F",
+  "address": {
+    "pincode": 201301,
+    "city": "Noida",
+    "state": "Uttar Pradesh"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b04965fcaa6bccc8bdbae4"
+  },
+  "id": "54uv3str6rst6qst3qv0wu47",
+  "name": "Vivek",
+  "city": "Jaipur",
+  "skills": [
+    {
+      "category": "Frontend",
+      "technologies": [
+        "SvelteKit"
+      ],
+      "proficiency": "Intermediate"
+    },
+    {
+      "category": "AI/ML",
+      "technologies": [
+        "LangChain",
+        "Hugging Face"
+      ],
+      "proficiency": "Advanced"
+    },
+    {
+      "category": "Cloud",
+      "technologies": [
+        "AWS Bedrock"
+      ],
+      "proficiency": "Basic"
+    }
+  ],
+  "age": 29,
+  "gender": "M",
+  "address": {
+    "pincode": 302001,
+    "city": "Jaipur",
+    "state": "Rajasthan"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b04965fcaa6bccc8bdbae5"
+  },
+  "id": "65vw4tus7stu7rst4rw1xv58",
+  "name": "Nandini",
+  "city": "Chennai",
+  "skills": [
+    {
+      "category": "Cloud",
+      "technologies": [
+        "AWS",
+        "Multi-Cloud"
+      ],
+      "proficiency": "Advanced"
+    },
+    {
+      "category": "DevOps",
+      "technologies": [
+        "Crossplane"
+      ],
+      "proficiency": "Advanced"
+    },
+    {
+      "category": "Security",
+      "technologies": [
+        "IAM Policies"
+      ],
+      "proficiency": "Intermediate"
+    }
+  ],
+  "age": 38,
+  "gender": "F",
+  "address": {
+    "pincode": 600042,
+    "city": "Chennai",
+    "state": "Tamil Nadu"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b04965fcaa6bccc8bdbae6"
+  },
+  "id": "76wx5uvt8tuv8tuv5sx2yw69",
+  "name": "Aditya",
+  "city": "Bangalore",
+  "skills": [
+    {
+      "category": "AR/VR",
+      "technologies": [
+        "Unreal Engine",
+        "ARKit"
+      ],
+      "proficiency": "Intermediate"
+    },
+    {
+      "category": "3D Modeling",
+      "technologies": [
+        "Maya"
+      ],
+      "proficiency": "Basic"
+    },
+    {
+      "category": "Mobile",
+      "technologies": [
+        "SwiftUI"
+      ],
+      "proficiency": "Intermediate"
+    }
+  ],
+  "age": 24,
+  "gender": "M",
+  "address": {
+    "pincode": 560102,
+    "city": "Bangalore",
+    "state": "Karnataka"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b04965fcaa6bccc8bdbae7"
+  },
+  "id": "87xy6vwu9uvw9uvw6ty3zx70",
+  "name": "Preeti",
+  "city": "Hyderabad",
+  "skills": [
+    {
+      "category": "Data Analysis",
+      "technologies": [
+        "Tableau",
+        "Power BI"
+      ],
+      "proficiency": "Advanced"
+    },
+    {
+      "category": "SQL",
+      "technologies": [
+        "Advanced Queries"
+      ],
+      "proficiency": "Intermediate"
+    },
+    {
+      "category": "Python",
+      "technologies": [
+        "Pandas",
+        "Seaborn"
+      ],
+      "proficiency": "Intermediate"
+    }
+  ],
+  "age": 28,
+  "gender": "F",
+  "address": {
+    "pincode": 500034,
+    "city": "Hyderabad",
+    "state": "Telangana"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b04965fcaa6bccc8bdbae8"
+  },
+  "id": "98yz7wxv0vwx0vwx7uz4ay81",
+  "name": "Harsh",
+  "city": "Pune",
+  "skills": [
+    {
+      "category": "Embedded Systems",
+      "technologies": [
+        "C",
+        "RTOS"
+      ],
+      "proficiency": "Advanced"
+    },
+    {
+      "category": "IoT",
+      "technologies": [
+        "MQTT",
+        "LoRaWAN"
+      ],
+      "proficiency": "Intermediate"
+    },
+    {
+      "category": "PCB Design",
+      "technologies": [
+        "Altium"
+      ],
+      "proficiency": "Basic"
+    }
+  ],
+  "age": 32,
+  "gender": "M",
+  "address": {
+    "pincode": 411038,
+    "city": "Pune",
+    "state": "Maharashtra"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b04965fcaa6bccc8bdbae9"
+  },
+  "id": "09za8xyw1xwy1xwy8va5bz92",
+  "name": "Kriti",
+  "city": "Gurgaon",
+  "skills": [
+    {
+      "category": "SRE",
+      "technologies": [
+        "Prometheus",
+        "Grafana"
+      ],
+      "proficiency": "Advanced"
+    },
+    {
+      "category": "Cloud",
+      "technologies": [
+        "GKE"
+      ],
+      "proficiency": "Advanced"
+    },
+    {
+      "category": "Scripting",
+      "technologies": [
+        "Bash",
+        "Python"
+      ],
+      "proficiency": "Intermediate"
+    }
+  ],
+  "age": 35,
+  "gender": "F",
+  "address": {
+    "pincode": 122002,
+    "city": "Gurgaon",
+    "state": "Haryana"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b04965fcaa6bccc8bdbaea"
+  },
+  "id": "10ab9yzx2yzx2yzx9wb6ca03",
+  "name": "Raj",
+  "city": "Mumbai",
+  "skills": [
+    {
+      "category": "Quantum Computing",
+      "technologies": [
+        "Qiskit",
+        "Cirq"
+      ],
+      "proficiency": "Intermediate"
+    },
+    {
+      "category": "Python",
+      "technologies": [
+        "NumPy"
+      ],
+      "proficiency": "Advanced"
+    },
+    {
+      "category": "Research",
+      "technologies": [
+        "Algorithm Design"
+      ],
+      "proficiency": "Basic"
+    }
+  ],
+  "age": 40,
+  "gender": "M",
+  "address": {
+    "pincode": 400076,
+    "city": "Mumbai",
+    "state": "Maharashtra"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b04965fcaa6bccc8bdbaeb"
+  },
+  "id": "21bc0zay3azy3azy0xc7db14",
+  "name": "Shreya",
+  "city": "Delhi",
+  "skills": [
+    {
+      "category": "Digital Marketing",
+      "technologies": [
+        "SEO",
+        "Google Ads"
+      ],
+      "proficiency": "Advanced"
+    },
+    {
+      "category": "Analytics",
+      "technologies": [
+        "Google Analytics 4"
+      ],
+      "proficiency": "Intermediate"
+    },
+    {
+      "category": "Content",
+      "technologies": [
+        "Copywriting"
+      ],
+      "proficiency": "Intermediate"
+    }
+  ],
+  "age": 29,
+  "gender": "F",
+  "address": {
+    "pincode": 110025,
+    "city": "Delhi",
+    "state": "Delhi"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b04965fcaa6bccc8bdbaec"
+  },
+  "id": "32cd1abz4baz4baz1yd8ec25",
+  "name": "Aryan",
+  "city": "Bangalore",
+  "skills": [
+    {
+      "category": "Robotics",
+      "technologies": [
+        "ROS",
+        "Gazebo"
+      ],
+      "proficiency": "Intermediate"
+    },
+    {
+      "category": "Python",
+      "technologies": [
+        "OpenCV"
+      ],
+      "proficiency": "Advanced"
+    },
+    {
+      "category": "Electronics",
+      "technologies": [
+        "Raspberry Pi"
+      ],
+      "proficiency": "Basic"
+    }
+  ],
+  "age": 26,
+  "gender": "M",
+  "address": {
+    "pincode": 560103,
+    "city": "Bangalore",
+    "state": "Karnataka"
+  }
+},
+{
+  "_id": {
+    "$oid": "67b04965fcaa6bccc8bdbaed"
+  },
+  "id": "43de2bca5cab5cab2ze9fd36",
+  "name": "Zoya",
+  "city": "Chennai",
+  "skills": [
+    {
+      "category": "Ethical Hacking",
+      "technologies": [
+        "Metasploit",
+        "Burp Suite"
+      ],
+      "proficiency": "Advanced"
+    },
+    {
+      "category": "Networking",
+      "technologies": [
+        "Packet Analysis"
+      ],
+      "proficiency": "Intermediate"
+    },
+    {
+      "category": "Linux",
+      "technologies": [
+        "Kali"
+      ],
+      "proficiency": "Advanced"
+    }
+  ],
+  "age": 31,
+  "gender": "F",
+  "address": {
+    "pincode": 600045,
+    "city": "Chennai",
+    "state": "Tamil Nadu"
+  }
+}]
