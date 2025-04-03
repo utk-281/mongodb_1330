@@ -48,3 +48,46 @@ db.users.insertMany([
 ]);
 
 db.users.updateOne({ userName: "chetna A" }, { $set: { username: "chetna" } });
+
+db.emp.find({ $and: [{ sal: { $gt: 1100 } }, { sal: { $lt: 2000 } }] });
+
+db.emp.find(
+  {
+    $and: [{ deptNo: { $eq: 20 } }, { job: "manager" }],
+  },
+  { empName: 1, hireDate: 1, _id: 0 }
+);
+
+db.emp.find(
+  { $or: [{ deptNo: 20 }, { deptNo: 30 }] },
+  {
+    empName: 1,
+    _id: 0,
+  }
+);
+
+db.emp.find({
+  $or: [{ deptNo: 20 }, { job: "clerk" }, { job: "salesman" }],
+});
+
+db.emp.find({
+  $and: [{ deptNo: 20 }, { $or: [{ job: "clerk" }, { job: "salesman" }] }],
+});
+
+user = {
+  _id: ObjectId("67e65fdc1b5229966acb0ce3"),
+  id: "12345676",
+  name: "san",
+  city: "chennai",
+  skills: [
+    { category: "frontend", technologies: ["react", "java"], proficiency: "adv" },
+    { category: "frontend", technologies: ["react", "java"], proficiency: "adv" },
+  ],
+  age: 25,
+  gender: "m",
+  address: {
+    pincode: 12344,
+    city: "chennai",
+    state: "tamil Nadu",
+  },
+};
