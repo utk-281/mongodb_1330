@@ -91,3 +91,30 @@ user = {
     state: "tamil Nadu",
   },
 };
+
+db.books.find({
+  $and: [
+    { $and: [{ price: { $gt: 20 } }, { price: { $lt: 50 } }] },
+    {
+      category: { $in: ["science", "fiction"] },
+    },
+  ],
+});
+
+db.emp.find({ hireDate: { $lt: new Date("01/01/1987") } });
+
+db.emp.find({
+  $and: [
+    { hireDate: { $gt: new Date("31 dec1980") } },
+    { hireDate: { $lt: new Date("01 jan 1982") } },
+  ],
+});
+db.emp.find({
+  $and: [
+    { hireDate: { $gte: new Date("1 jan 1981") } },
+    { hireDate: { $lte: new Date("31 dec 1981") } },
+  ],
+});
+
+db.users.find({ "phone no": 1234567 });
+db.users.findOne({ "address.city": "def" });
