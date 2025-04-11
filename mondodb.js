@@ -118,3 +118,12 @@ db.emp.find({
 
 db.users.find({ "phone no": 1234567 });
 db.users.findOne({ "address.city": "def" });
+
+db.games.insertMany([
+  { id: 123, highScore: 230, minScore: 120 },
+  { id: 234, highScore: 900, minScore: 90 },
+]);
+
+db.games.updateOne({ id: 123 }, { minScore: { $min: 500 } });
+
+db.users.updateOne({ name: "ashwini" }, { $set: { name: "ashwin" } }, { upsert: false });
