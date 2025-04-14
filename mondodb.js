@@ -127,3 +127,101 @@ db.games.insertMany([
 db.games.updateOne({ id: 123 }, { minScore: { $min: 500 } });
 
 db.users.updateOne({ name: "ashwini" }, { $set: { name: "ashwin" } }, { upsert: false });
+
+let doc = {
+  name: string,
+  age: number,
+  isHavingInsurance: boolean,
+};
+
+//! to define a schema
+db.createCollection("usersInfo", {
+  validator: {
+    $jsonSchema: {
+      bsonType: "object",
+      required: ["Name", "age", "isHavingInsurance"],
+      properties: {
+        name: {
+          bsonType: "string",
+          description: "name must be of type string",
+        },
+        age: {
+          bsonType: "number",
+          description: "pass a number",
+        },
+        isHavingInsurance: {
+          bsonType: "bool",
+          description: "pass a boolean",
+        },
+      },
+    },
+  },
+});
+
+db.usersInfo.insertOne({ name: "abc", age: 34, isHavingInsurance: true });
+
+let user1 = {
+  Name: String,
+  contact: Number,
+  address: {
+    city: String,
+    pinCode: Number,
+  },
+};
+
+db.createCollection("coll1", {
+  validator: {
+    $jsonSchema: {
+      bsonType: "object",
+      required: ["Name", "contact", "address"],
+      properties: {
+        Name: {
+          bsonType: "string",
+        },
+        contact: {
+          bsonType: "number",
+        },
+        address: {
+          bsonType: "object",
+          required: ["city", "pinCode"],
+          properties: {
+            city: {
+              bsonType: "string",
+            },
+            pinCode: {
+              bsonType: "number",
+            },
+          },
+        },
+      },
+    },
+  },
+});
+db.coll1.insertOne({
+  Name: "abc",
+  contact: 123456,
+  address: {
+    city: "chennai",
+    pinCode: 123456,
+  },
+});
+
+db.createCollection("col2", {
+  validator: {
+    $jsonSchema: {
+      bsonType: "object",
+      required: ["name", "skills"],
+      properties: {
+        name: {
+          bsonType: "string",
+        },
+        skills: {
+          bsonType: "array",
+          items: {
+            bsonType: "string",
+          },
+        },
+      },
+    },
+  },
+});
