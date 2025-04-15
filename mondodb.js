@@ -225,3 +225,80 @@ db.createCollection("col2", {
     },
   },
 });
+
+{
+  name;
+}
+
+db.createCollection("col3", {
+  validator: {
+    $jsonSchema: {
+      bsonType: "object",
+      required: ["name", "skills"],
+      properties: {
+        name: {
+          bsonType: "string",
+        },
+        skills: {
+          bsonType: "array",
+          items: {
+            bsonType: "object",
+            required: ["frontend"],
+            properties: {
+              frontend: {
+                bsonType: "array",
+                items: {
+                  bsonType: "string",
+                },
+              },
+            },
+          },
+        },
+      },
+    },
+  },
+});
+
+let user = {
+  name: "utk",
+  id: 123,
+  address: {
+    city: "Noida",
+  },
+  contact: {
+    email: "",
+    phoneNO: 1234,
+  },
+};
+//! nested or embedded
+
+db.users.insertOne({
+  name: "abc",
+  age: 34,
+  address: {
+    city: "Noida",
+  },
+  contact: {
+    email: "abc@gmail.com",
+  },
+});
+
+db.userInfo.insertMany([
+  { name: "abc", age: 34 },
+  { name: "def", age: 35 },
+]);
+
+db.address.insertMany([{ city: "delhi" }, { city: "noida" }]);
+
+db.userInfo.updateOne({ name: "def" }, { $set: { addressDetails: "67fe1ac8b191df32c5cb0ce7" } });
+
+// db.userInfo.aggregate([
+//   {
+//     $lookup: {
+//       from: "address",
+//       localField: "addressDetails",
+//       foreignField: "_id",
+//       as: "addressDetails",
+//     },
+//   },
+// ]);
