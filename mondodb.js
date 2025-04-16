@@ -302,3 +302,66 @@ db.userInfo.updateOne({ name: "def" }, { $set: { addressDetails: "67fe1ac8b191df
 //     },
 //   },
 // ]);
+
+db.collection_name.aggregate([
+  {
+    $match: {
+      job: "salesman",
+    },
+  },
+  {
+    $project: {},
+  },
+]);
+
+//! fetch all the users who are working as salesman
+db.emp.aggregate([
+  {
+    $match: {
+      job: "salesman",
+    },
+  },
+]);
+
+//! fetch all the users name who are working as salesman
+db.emp.aggregate([
+  {
+    $match: {
+      $and: [{}, {}],
+    },
+  },
+
+  {
+    $project: {
+      empName: 1,
+      _id: 0,
+    },
+  },
+]);
+
+db.emp.aggregate([
+  {
+    $group: {
+      _id: "$job",
+    },
+  },
+]);
+//! whenever we are passing document key as a value we should prefix it by "$"
+
+db.emp.aggregate([
+  {
+    $group: {
+      _id: "$salesman",
+    },
+  },
+]);
+
+db.emp.aggregate([
+  {
+    $group: {
+      _id: "$deptNo",
+      numberOfEmp: { $sum: 1 },
+      maximumSalary: { $max: "$sal" },
+    },
+  },
+]);
