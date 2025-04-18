@@ -365,3 +365,212 @@ db.emp.aggregate([
     },
   },
 ]);
+
+db.emp.aggregate([
+  {
+    $group: {
+      _id: "$deptNo",
+      totalSal: { $sum: "$sal" },
+    },
+  },
+]);
+
+db.emp.aggregate([
+  {
+    $match: {
+      empName: {
+        $regex: /a/,
+      },
+    },
+  },
+  {
+    $project: {
+      _id: 0,
+      ENAME: "$empName",
+    },
+  },
+]);
+
+db.collection_name.aggregate([
+  {
+    $addFields: {
+      keyName: { value },
+    },
+  },
+]);
+
+db.emp.aggregate([
+  {
+    $addFields: {
+      annualSalary: {
+        $multiply: ["$sal", 12],
+      },
+    },
+  },
+]);
+
+db.emp.aggregate([
+  {
+    $addFields: {
+      annualSalary: {
+        $multiply: ["$sal", 12],
+      },
+    },
+  },
+  {
+    $match: {
+      annualSalary: { $gt: 20000 },
+    },
+  },
+  {
+    $project: {
+      empName: 1,
+      _id: 0,
+      annualSalary: 1,
+    },
+  },
+]);
+
+//! display the emp names along with count in each department
+db.emp.aggregate([
+  {
+    $group: {
+      _id: "$deptNo",
+      count: { $sum: 1 },
+      employeeNames: { $push: "$empName" },
+    },
+  },
+  {
+    $project: {
+      deptNumber: "$_id",
+      _id: 0,
+      count: 1,
+      employeeNames: 1,
+    },
+  },
+]);
+
+// db.users.find({
+//   $and: [{ deptNo: { $in: [10, 30] } }, { job: "clerk" }],
+// });
+
+db.emp.aggregate([
+  {
+    $addFields: {
+      midTermSal: {
+        $multiply: ["$sal", 6],
+      },
+    },
+  },
+  {
+    $match: {
+      midTermSal: { $lt: 10000 },
+      job: "clerk",
+      deptNo: { $in: [10, 30] },
+      empName: { $regex: /a/ },
+    },
+  },
+]);
+db.emp.aggregate([
+  {
+    $addFields: {
+      midTermSal: {
+        $multiply: ["$sal", 6],
+      },
+    },
+  },
+  {
+    $match: {
+      $and: [
+        { midTermSal: { $lt: 10000 } },
+        { job: "clerk" },
+        { deptNo: { $in: [10, 30] } },
+        { empName: { $regex: /a/ } },
+      ],
+    },
+  },
+]);
+
+db.emp.aggregate([
+  {
+    $project: {
+      empName: 1,
+      sal: 1,
+      _id: 0,
+    },
+  },
+  {
+    $sort: {
+      sal: 1, // the first key will be arranged in the order
+      empName: -1,
+    },
+  },
+]);
+db.emp.aggregate([
+  {
+    $project: {
+      empName: 1,
+      sal: 1,
+      _id: 0,
+    },
+  },
+  {
+    $sort: {
+      empName: -1,
+    },
+  },
+  {
+    $sort: {
+      sal: 1, // last $sort stage is getting considered
+    },
+  },
+]);
+db.emp.aggregate([
+  {
+    $project: {
+      sal: 1,
+      _id: 0,
+    },
+  },
+  {
+    $sort: {
+      sal: 1, // last $sort stage is getting considered
+    },
+  },
+  {
+    $skip: -4,
+  },
+]);
+
+db.emp.aggregate([
+  {
+    $project: {
+      empName: 1,
+      sal: 1,
+      _id: 0,
+    },
+  },
+  {
+    $sort: {
+      sal: -1,
+    },
+  },
+  { $skip: 3 },
+  { $limit: 1 },
+]);
+
+db.emp.aggregate([
+  {
+    $group: {
+      _id: "$sal",
+      empNames: { $push: "$empName" },
+    },
+  },
+  {
+    $sort: {
+      _id: -1,
+    },
+  },
+  { $skip: 3 },
+  { $limit: 1 },
+]);
