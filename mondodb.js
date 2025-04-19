@@ -574,3 +574,111 @@ db.emp.aggregate([
   { $skip: 3 },
   { $limit: 1 },
 ]);
+
+//! count the number of employees in each department
+db.emp.aggregate([
+  {
+    $group: {
+      _id: "$deptNo",
+      count: { $sum: 1 },
+    },
+  },
+]);
+
+//! show the total number of employees in each department where count is greater than 5
+db.emp.aggregate([
+  {
+    $group: {
+      _id: "$deptNo",
+      totalNumberOfEmp: { $sum: 1 },
+    },
+  },
+  {
+    $match: {
+      totalNumberOfEmp: { $gt: 5 },
+    },
+  },
+]);
+
+//! display the maximum salary given along with department number in each job where maximum salary is greater than 3500
+db.emp.aggregate([
+  {
+    $group: {
+      _id: "$job",
+      maximumSalary: { $max: "$sal" },
+      // departmentNumber: { $push: "$deptNo" }, // it will add elements in an array at last position and will also allow duplicates
+      depNo: { $addToSet: "$deptNo" }, // it will add elements in an array at last position and will not allow duplicates
+    },
+  },
+  {
+    $match: {
+      maximumSalary: { $gt: 3500 },
+    },
+  },
+]);
+
+//! write the details of emp who were hired in year 1981
+db.emp.aggregate([
+  {
+    $addFields: {
+      myYear: { $year: "$hireDate" },
+      myMonth: { $month: "$hireDate" },
+      myDay: { $dayOfMonth: "$hireDate" },
+    },
+  },
+  {
+    $match: {
+      year: { $eq: 1981 },
+    },
+  },
+]);
+
+//! display the total salary needed to pay to all the employees
+db.emp.aggregate([
+  {
+    $group: {
+      _id: null,
+      totalSalary: { $sum: "$sal" },
+    },
+  },
+]);
+
+//! find total salary need to pay to all employees working as clerk
+db.emp.aggregate([
+  {
+    $group: {
+      _id: "$job",
+      totalSalary: { $sum: "$sal" },
+    },
+  },
+  {
+    $match: {
+      _id: "clerk",
+    },
+  },
+]);
+db.emp.aggregate([
+  {
+    $match: {
+      job: "clerk",
+    },
+  },
+  {
+    $group: {
+      _id: "$job",
+      totalSalary: { $sum: "$sal" },
+    },
+  },
+]);
+
+//! display the details of emo along with their department details
+db.emp.aggregate([
+  {
+    $lookup: {
+      from: "dept",
+      localField: "deptNo",
+      foreignField: "deptNo",
+      as: "deptNo",
+    },
+  },
+]);
